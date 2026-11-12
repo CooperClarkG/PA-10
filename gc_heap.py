@@ -4,11 +4,7 @@ PA 9: The Garbage Collector -- starter.
 Complete GCHeap below. See the assignment, Part B,
 for the full requirements.
 
-Named gc_heap.py, not gc.py, to avoid shadowing Python's own built-in
-gc module -- the assignment's Part B says "gc.py" but that name
-collides with the standard library, so this starter renames it.
-Submit under whichever name your instructor prefers; the test harness
-just imports from gc_heap.
+Use gc_heap.py as specified in the assignment and imported by the harness.
 
 Design note: GCHeap.allocate(obj) takes exactly one argument per the
 spec, so an allocated object that references OTHER heap handles must
